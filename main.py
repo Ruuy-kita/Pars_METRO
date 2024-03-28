@@ -9,7 +9,7 @@ result_dict = {}
 # список ссылок на страницы товаров
 page_urls = ['https://online.metro-cc.ru/category/ofis-obuchenie-hobbi/pismennye-prinadlezhnosti']
 
-# генерируем недостоющие ссылка
+# генерируем недостоющие ссылки
 for i in range(1, 5):
     page_urls.append(f'{page_urls[0]}?page={i}')
 
